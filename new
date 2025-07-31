@@ -1,0 +1,39 @@
+<form id="laptopForm">
+    <input type="hidden" id="laptopId">
+    <div class="form-group">
+        <label for="brand">Brand</label>
+        <input type="text" id="brand" required>
+    </div>
+    <div class="form-group">
+        <label for="model">Model</label>
+        <input type="text" id="model" required>
+    </div>
+    <div class="form-group">
+        <label for="serialNumber">Serial Number</label>
+        <input type="text" id="serialNumber" required>
+    </div>
+    <div class="form-group">
+        <label for="processor">Processor</label>
+        <input type="text" id="processor" required>
+    </div>
+    <div class="form-group">
+        <label for="ram">RAM</label>
+        <input type="text" id="ram" required>
+    </div>
+    <div class="form-group">
+        <label for="storage">Storage</label>
+        <input type="text" id="storage" required>
+    </div>
+    <div class="form-group">
+        <label for="screenSize">Screen Size</label>
+        <input type="text" id="screenSize" required>
+    </div>
+    <div class="form-group">
+        <label for="status">Status</label>
+        <select id="status" required>
+            <option value="available">Available</option>
+            <option value="in-use">In Use</option>
+            <option value="maintenance">Maintenance</option>
+        </select>
+    </div>
+</form>
